@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory;
+}
+body{
+    /*background-image: url(images.jpg);*/
+    background-color: #90D6FF;
+}
+.digiClock{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20%;
+    margin-left: 30%;
+    font-size: 50px;
+    height: 180px;
+    width: 640px;
+    background-color: rgb(194, 255, 194);
+    border-radius: 40px;
+    border: 15px solid rgb(144,238,144);
+    transition: 1s ease;
+     transition-timing-function: ease;
+     transition-duration: 1s;
+     transition-delay: 0s;
+     transition-property: all;
+
+}
